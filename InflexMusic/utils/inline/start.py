@@ -8,9 +8,9 @@ def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_[""], url=f"https://t.me/{app.username}?startgroup=true"
+                text=_["𝙰𝙳𝙳 𝙼𝙴 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿"], url=f"https://t.me/{app.username}?startgroup=true"
             ),
-            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_GROUP),
+            InlineKeyboardButton(text=_["𝙶𝚁𝙾𝚄𝙿 "], url=config.SUPPORT_GROUP),
         ],
     ]
     return buttons
