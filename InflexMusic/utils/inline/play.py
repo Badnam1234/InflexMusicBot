@@ -126,10 +126,10 @@ close_keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="ᴄʟᴏꜱᴇ", callback_data="close"
+                        text="✭ᴄʟᴏꜱᴇ✭", callback_data="close"
                     ),
                     InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/badnam_ji"
+                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/badnam_ji"
                     )
                 ]    
             ]
@@ -160,7 +160,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ɢʀᴏᴜᴘ", url=config.SUPPORT_GROUP
+                text="✭ɢʀᴏᴜᴘ✭", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
                 text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL
@@ -168,13 +168,14 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/badnam_ji"
+                text="✭OWNER✭", url=f"https://t.me/badnam_ji"
             )
         ],
         [
             InlineKeyboardButton(
-                text="ᴄʟᴏꜱᴇ", callback_data=f"close"
+                text="✭ᴄʟᴏꜱᴇ✭", callback_data=f"close"
             )
         ],
     ]
     return buttons
+    
